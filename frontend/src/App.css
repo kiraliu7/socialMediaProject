@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bg{
+  background: linear-gradient( 90deg, #ddd 50%,#eee 50%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main{
+  display: grid;
+  width:100%;
+  grid-template-columns: 20% 80%;
+}
+
+.main>div{
+  background: #eee;
+  padding: 1em;
+}
+
+.main>div:nth-child(odd){
+  background: #ddd;
+}
+  .register {
+  position: relative;
+  top: 25%;
+  left: 40%;      
+  }
+
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border: 1px solid;
+
+}
+
+  .login {
+    position: relative;
+    top: 25%;
+    left: 40%;      
+    }  
+
+.currentinfo {
+  position: relative;
+  top: 25%;
+  left: 40%;    
+  margin-bottom: none;  
+  }  
+
+  .changeinfo {
+    position: relative;
+    top: 7%;
+    left: 37%;      
+    }  
+
+.twoColWrapper{
+  display: grid;
+  width:100%;
+  grid-template-columns: 50% 50%;
+}
+
+.twoColWrapper>div{
+  background: #eee;
+  padding: 1em;
+}
+
+.twoColWrapper>div:nth-child(odd){
+  background: #ddd;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

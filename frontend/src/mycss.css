@@ -1,0 +1,115 @@
+
+
+.bg{
+  background: linear-gradient( 90deg, #ddd 50%,#eee 50%);
+  margin: 0;
+  min-height: 100vh;
+}
+
+.imgbox{
+  
+}
+
+.imgbox img{
+  max-width: 1000px;
+  max-height: 750px;
+}
+
+.main{
+  display: grid;
+  width:100%;
+  grid-template-columns: 20% 80%;
+  min-height: 100vh;
+}
+
+.main>div{
+  background: #eee;
+  padding: 1em;
+}
+
+.main>div:nth-child(odd){
+  background: #ddd;
+}
+
+.register {
+position: relative;
+right: 23%;    
+top: 75px;
+float:right;  
+}
+
+.logout{
+  position: relative;
+  float:right; 
+}
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border: 1px solid;
+
+}
+
+  .login {
+    position: relative;
+    top: 170px;
+    left: 40%;      
+    }  
+
+.currentinfo {
+  position: relative;
+  left: 37%;    
+  }  
+
+.bold{
+  font-weight: bold;
+  font-size: large;
+}
+
+.post
+{
+   top: 0px;
+   margin:0px;  
+   padding: 0px 2px 2px 3px;    
+   border-width: 2px;
+   border-bottom-width:2px;
+   border-bottom-color:#ccc;
+   border-bottom-style: solid;
+   width: 100%;
+}
+
+.link{
+  font-size: large;
+  color:#00205B;
+}
+
+.boldsm{
+  font-weight: bold;
+}
+
+
+  .changeinfo {
+    position: relative;
+    top: 25%;
+    right: 17%; 
+    float:right;       
+    }  
+
+.twoColWrapper{
+  display: grid;
+  width:100%;
+  grid-template-columns: 50% 50%;
+}
+
+.twoColWrapper>div{
+  background: #eee;
+  padding: 1em;
+}
+
+.twoColWrapper>div:nth-child(odd){
+  background: #ddd;
+}
+
+.comments{
+  color:#00205B;
+}
